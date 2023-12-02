@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Manuel Arévalo Cáceres</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/ico.ico" rel="icon">
+    <style>
+
+    </style>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px;
+            /* Ajusta el cuerpo para evitar que el contenido se solape con el menú fijo */
+        }
+
+        /* Añade estilos para el menú fijo */
+        .fixed-top {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.8);
+            /* Fondo con opacidad */
+            transition: background-color 0.3s ease;
+            /* Agrega una transición suave */
+        }
+
+        .fixed-top.bg-transparent {
+            background-color: transparent;
+            /* Fondo transparente cuando no haces scroll */
+        }
+
+        .modal-banner {
+            text-align: center;
+            /* Centrar la imagen */
+        }
+
+        /* Estilo para la imagen dentro de modal-banner */
+        .modal-banner img {
+            max-width: 100%;
+            /* Asegura que la imagen no exceda el ancho del contenedor */
+            height: auto;
+            /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+            border-radius: 8px;
+            /* Bordes redondeados para dar un aspecto más agradable */
+        }
+
+        .modal-lg {
+            max-width: 200%;
+            /* Puedes ajustar el porcentaje según tus necesidades */
+            margin: 0 auto;
+            /* Centrar el modal en la pantalla */
+        }
+
+        #header-carousel {
+            height: 50vh;
+            /* 50% del alto del viewport, ajusta según tus necesidades */
+        }
+
+        #header-carousel .carousel-inner {
+            height: 100%;
+            /* Toma el 100% del contenedor principal */
+        }
+
+        #header-carousel .carousel-inner img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .bg-transparent {
+            background-color: transparent !important;
+        }
+    </style>
+  <!-- Código de instalación Cliengo para YOGI.COM --> <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/656949654a25330032b3e59b/656949674a25330032b3e59e.js?platform=dashboard'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })(); </script>
+
+</head>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">CRONOGRAMA DE TITULACION 2023 - II Y MAS</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Banner llamativo -->
+                <div class="modal-banner">
+                    <img src="img/Periodo2024.PNG" alt="Banner Llamativo">
+                </div>
+                <!-- Contenido del modal -->
+                <p>Hola, ¡Bienvenido a Nuestra pagina web Institucional!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <div class="fixed-top">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+                <a href="index.html" class="navbar-brand ml-lg-3">
+                    <!--h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>IESTP MANUEL AREVALO CACERES </h1!-->
+                    <h1 class="m-0 text-uppercase text-primary"><img src="img/LOgoMac.png" width="200" height="58"  >
+                    </h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active " style="color: #A61325;">INICIO</a>
+                        <a href="about.html" class="nav-item nav-link" style="color: #A61325;">NOSOTROS</a>
+                        <a href="carreras.html" class="nav-item nav-link" style="color: #A61325;">CARRERAS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                style="color: #A61325;">INTRANET</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="detail.html" class="dropdown-item" style="color: #A61325;">Registrarse</a>
+                                <a href="feature.html" class="dropdown-item" style="color: #A61325;">VER NOTAS Y
+                                    CURSOS</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link" style="color: #A61325;">CONTACTO</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div id="header-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Primera imagen del carrusel -->
+            <div class="carousel-item active">
+                <img src="img/Computación 2.png" class="d-block w-100" alt="Primera Imagen">
+            </div>
+            <!-- Segunda imagen del carrusel -->
+            <div class="carousel-item">
+                <img src="img/Computación e Informática.1.png" class="d-block w-100" alt="Segunda Imagen">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Rosa Collage de Fotos Cabello de Colores Portada de Facebook.png" class="d-block w-100"
+                    alt="Segunda Imagen">
+            </div>
+
+            <!-- Agrega más imágenes según sea necesario -->
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" style="min-height: 500px;">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img  class="position-absolute w-100 h-100" src="img/Macinciio.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-black text-uppercase pb-2" style="color: #A61325;">Nosotros</h6>
+                        <h1 class="display-4 text-black" style="color: #A61325;">¿Quienes Somos?</h1>
+                    </div>
+
+                    <p style="color: #A61325;">Somos una institución pública de Educación Superior dedicada a la formación de profesionales técnicos altamente competitivos y 
+                        emprendedores que respondan a las exigencias del mercado laboral; con capacidad de gestión, compromiso social y ético, estableciendo alianzas estratégicas
+                         con Instituciones, teniendo infraestructura adecuada y docentes altamente calificados.
+                        Nuestra institución arevalina, con 25 años de servicios educativos en el distrito de Los Olivos y del país, esta impulsando el desarrollo académico y 
+                        administrativo, te brindamos los servicios en:
+                       <li> Asistencia social y psicologica</li>
+                       <li> Recreación, Educación física y deportes.</li>
+                       <li> Actividades Artistitcas y Culturales.</li>
+                        <li> Enseñanza Profesional con aplicaciones de TI de nivel superior.</li>
+                        <li> Biblioteca y Cabinas de Internet en paralelo.</li>
+                        <li> Moderna infraestructura en Laboratorios de Industria Alimentaria, Enfermería y Computación e Informática.</li>
+                        <li> Proyección Social y Cursos de Extensiòn.</li>
+                        <li> Servicio de Seguridad y vigilancia permanente.</li></p>
+                    <div class="row pt-3 mx-0">
+                        <div class="col-3 px-0">
+                            <div class="bg-success text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">1000</h1>
+                                <h6 class="text-uppercase text-white">Vacantes<span class="d-block">Disponibles</span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-primary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">800</h1>
+                                <h6 class="text-uppercase text-white">Estudiantes<span class="d-block">Egresados</span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-secondary text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">123</h1>
+                                <h6 class="text-uppercase text-white">Docentes<span class="d-block">Capacitados</span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0">
+                            <div class="bg-warning text-center p-4">
+                                <h1 class="text-white" data-toggle="counter-up">1200</h1>
+                                <h6 class="text-uppercase text-white">Estudiantes<span class="d-block">Felices</span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-image" style="margin: 90px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 my-5 pt-5 pb-lg-5">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2" style="color: #A61325;">¿Por qué somos
+                            tu mejor opcion?</h6>
+                        <h1 class="display-4" style="color: #A61325;">Te Mostramos por qué</h1>
+                    </div>
+                    <p class="mb-4 pb-2" style="color: #A61325;">Al ser un instituto estatal, es probable que tenga vínculos más estrechos con el gobierno 
+                        y pueda acceder a recursos adicionales, ya sea en términos de financiamiento.
+                    </p>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-primary mr-4">
+                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4 style="color: #A61325;">Acceso Equitativo y Gratuidad:</h4>
+                            <p style="color: #A61325;">Al ser un instituto estatal y ofrecer educación gratuita, asegura un acceso equitativo a la educación superior.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-secondary mr-4">
+                            <i class="fa fa-2x fa-certificate text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4 style="color: #A61325;">Énfasis en Valores Éticos y Sociales:</h4>
+                            <p style="color: #A61325;">La orientación hacia valores éticos y sociales, como la paz y el progreso, puede influir 
+                                en la formación de profesionales que no solo son competentes técnicamente, sino también conscientes de su responsabilidad 
+                                social y ética en el ejercicio de su profesión.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="btn-icon bg-warning mr-4">
+                            <i class="fa fa-2x fa-book-reader text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4 style="color: #A61325;">Enfoque en Generación de Empleo y Emprendimiento:</h4>
+                            <p style="color: #A61325;" class="m-0">La capacidad de promover y crear fuentes de trabajo muestra un interés en el desarrollo 
+                                económico a través de la capacitación de profesionales emprendedores. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Start -->
+
+
+    <!-- Courses Start -->
+    <div class="container-fluid bg-image" style="margin: 90px 0;">
+        <div class="container">
+            <div class="row">
+                <section id="videos">
+                    <div class="container">
+                        <h2 style="color: #A61325;">Videos Destacados</h2>
+
+                        <!-- Botones de Desplazamiento -->
+                        <ul class="nav nav-tabs" id="videoTabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="video1-tab" data-toggle="tab" href="#video1" role="tab"
+                                    aria-controls="video1" aria-selected="true">Computación e Informatica</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="video2-tab" data-toggle="tab" href="#video2" role="tab"
+                                    aria-controls="video2" aria-selected="false">Enfermeria Tecnica</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="video3-tab" data-toggle="tab" href="#video3" role="tab"
+                                    aria-controls="video3" aria-selected="false">Industria Alimentaria</a>
+                            </li>
+                        </ul>
+
+                        <!-- Contenido de los Videos -->
+                        <div class="tab-content" id="videoTabsContent">
+                            <!-- Video 1 -->
+                            <div class="tab-pane fade show active" id="video1" role="tabpanel"
+                                aria-labelledby="video1-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <video width="100%" height="240" controls>
+                                            <source src="img/CI.mp4" type="video/mp4">
+                                            Tu navegador no soporta el tag de video.
+                                        </video>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>Como ténico en Computación e Informatica desarrollarás distintas soluciones necesarias 
+                                            para la automatización de la información con una sólida base científica y tecnológica 
+                                            acreditada internacionalmente. Además, realizarás actividades de alto nivel de abstracción, 
+                                            como análisis y diseño, y actividades de gran responsabilidad, como gestión de proyectos y tecnologías.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Video 2 -->
+                            <div class="tab-pane fade" id="video2" role="tabpanel" aria-labelledby="video2-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <video width="100%" height="240" controls>
+                                            <source src="img/Enfermeriatecnica.mp4" type="video/mp4">
+                                            Tu navegador no soporta el tag de video.
+                                        </video>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>Como ténico en Enfermería Tecnica analiza y resuelve los problemas del cuidado de la salud de los 
+                                            pacientes en distintas etapas de la vida y con patologías agudas o crónicas. Podrá desempeñarse en 
+                                            distintos niveles de atención de salud, brindando cuidado centrado en el paciente, con calidez y sentido ético. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Video 3 -->
+                            <div class="tab-pane fade" id="video3" role="tabpanel" aria-labelledby="video3-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <video width="100%" height="240" controls>
+                                            <source src="img/IESTP _MANUEL ARÉVALO CÁCERES_ - ADMISIÓN 2020 (360p).mp4" type="video/mp4">
+                                            Tu navegador no soporta el tag de video.
+                                        </video>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>Como profesional ténico en Industrias Alimentarias posee las destrezas para la producción de productos 
+                                            alimenticios, mediante los procesos artesanales e industriales. Desarrolla sistemas de seguridad e inocuidad
+                                             de los alimentos vía un plan BPM y HACCP. Asimismo, cumple con las exigencias de calidad y productividad 
+                                             empresarial. En el campo laboral puede ejercer en empresas del sector industrial de alimentos y bebidas, entre otras.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->
+
+
+
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="bg-light d-flex flex-column justify-content-center px-5" style="height: 450px;">
+                        <div class="d-flex align-items-center mb-5">
+                            <div class="btn-icon bg-primary mr-4">
+                                <i class="fa fa-2x fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div class="mt-n1">
+                                <h4>Nuestra Ubicacion</h4>
+                                <p class="m-0">Av. Los Alisos #8810 CDRA.9 –Los Olivos </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-5">
+                            <div class="btn-icon bg-secondary mr-4">
+                                <i class="fa fa-2x fa-phone-alt text-white"></i>
+                            </div>
+                            <div class="mt-n1">
+                                <h4>LLamanos </h4>
+                                <p class="m-0">+51 994 224 977</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="btn-icon bg-warning mr-4">
+                                <i class="fa fa-2x fa-envelope text-white"></i>
+                            </div>
+                            <div class="mt-n1">
+                                <h4>Correo</h4>
+                                <p class="m-0">informes@iestp-mac.edu.pe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative mb-4">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2" style="color: #A61325;">Necesitas ayuda?
+                        </h6>
+                        <h1 class="display-4" style="color: #A61325;">Envianos un mensaje</h1>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-6 form-group">
+                                    <input type="text"
+                                        class="form-control border-top-0 border-right-0 border-left-0 p-0"
+                                        placeholder="NOMBRES Y APELLIDOS" required="required">
+                                </div>
+                                <div class="col-6 form-group">
+                                    <input type="email"
+                                        class="form-control border-top-0 border-right-0 border-left-0 p-0"
+                                        placeholder="TU CORREO" required="required">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control border-top-0 border-right-0 border-left-0 p-0"
+                                    placeholder="ASUNTO" required="required">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control border-top-0 border-right-0 border-left-0 p-0" rows="5"
+                                    placeholder="MENSAJE" required="required"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary py-3 px-5" type="submit">ENVIAR</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+       <div class="container-fluid bg-dark text-white-50 border-top py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0">Copyright &copy; <a class="text-white" href="#">Manuel Arevalo Caceres</a>. Todos los Derechos Reservados.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0">Diseñado por <a class="text-white" href="https://www.facebook.com/profile.php?id=61551060272200">TRAIN TECH</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: black;">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center text-white">
+                    <a class="text-white px-2" href="https://www.facebook.com/profile.php?id=61551060272200">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-2" href="https://www.instagram.com/traintech2023/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-2" href="https://www.youtube.com/@TRAINTECH-iz1or">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <small class="pl-3"><i class="fa fa-phone-alt mr-2"></i>+51 994 224 977</small>
+                    <small class="px-3">|</small>
+                    <small><i class="fa fa-envelope mr-2"></i>traintech@gmail.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right"></div>
+        </div>
+    </div>
+
+
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i
+            class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#exampleModal').modal('show');
+        });
+    </script>
+
+    <!-- Template Javascript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var prevScrollpos = window.pageYOffset;
+            var navbar = document.querySelector('.navbar');
+
+            window.onscroll = function () {
+                var currentScrollPos = window.pageYOffset;
+
+                // Muestra la barra de navegación cuando el usuario se desplaza hacia arriba
+                if (prevScrollpos > currentScrollPos || currentScrollPos === 0) {
+                    navbar.classList.remove('bg-light');
+                    navbar.classList.add('bg-transparent');
+                } else {
+                    // Oculta la barra de navegación cuando el usuario se desplaza hacia abajo
+                    navbar.classList.add('bg-light');
+                    navbar.classList.remove('bg-transparent');
+                }
+
+                prevScrollpos = currentScrollPos;
+            };
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var headerCarousel = document.getElementById('header-carousel');
+            var carouselItems = headerCarousel.querySelectorAll('.carousel-item');
+            var currentIndex = 0;
+
+            function changeImage() {
+                // Desactiva la imagen actual
+                carouselItems[currentIndex].classList.remove('active');
+
+                // Incrementa el índice de la imagen actual
+                currentIndex = (currentIndex + 1) % carouselItems.length;
+
+                // Activa la nueva imagen
+                carouselItems[currentIndex].classList.add('active');
+            }
+
+            // Cambia la imagen cada 3 segundos (3000 milisegundos)
+            setInterval(changeImage, 3000);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Manuel Arévalo Cáceres</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/ico.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px; /* Ajusta el cuerpo para evitar que el contenido se solape con el menú fijo */
+        }
+
+        /* Añade estilos para el menú fijo */
+        .fixed-top {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo con opacidad */
+            transition: background-color 0.3s ease; /* Agrega una transición suave */
+        }
+
+        .fixed-top.bg-transparent {
+            background-color: transparent; /* Fondo transparente cuando no haces scroll */
+        }
+        .modal-banner {
+            text-align: center; /* Centrar la imagen */
+        }
+    
+        /* Estilo para la imagen dentro de modal-banner */
+        .modal-banner img {
+            max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+            height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+            border-radius: 8px; /* Bordes redondeados para dar un aspecto más agradable */
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid" style="background-color: black;">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center text-white">
+                    <small><i class="fa fa-phone-alt mr-2"></i>+51 994 224 977</small>
+                    <small class="px-3">|</small>
+                    <small><i class="fa fa-envelope mr-2"></i>agencia@traintech.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-2" href="https://www.facebook.com/profile.php?id=61551060272200">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-2" href="https://www.instagram.com/traintech2023/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-2" href="https://www.youtube.com/@TRAINTECH-iz1or">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <div class="fixed-top">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+                <a href="index.html" class="navbar-brand ml-lg-3">
+                    <!--h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>IESTP MANUEL AREVALO CACERES </h1!-->
+                    <h1 class="m-0 text-uppercase text-primary"><img src="img/LOgoMac.png" width="200" height="58"  >
+                    </h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active " style="color: #A61325;">INICIO</a>
+                        <a href="about.html" class="nav-item nav-link" style="color: #A61325;">NOSOTROS</a>
+                        <a href="carreras.html" class="nav-item nav-link" style="color: #A61325;">CARRERAS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                style="color: #A61325;">INTRANET</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="detail.html" class="dropdown-item" style="color: #A61325;">Registrarse</a>
+                                <a href="feature.html" class="dropdown-item" style="color: #A61325;">VER NOTAS Y
+                                    CURSOS</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link" style="color: #A61325;">CONTACTO</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    
+    <!-- Header End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative mb-5">
+                <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">DOCENTES</h6>
+                <h1 class="display-4">Conoce a nuestros Docentes</h1>
+            </div>
+            <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/rosamiranda.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Rosa Luz Miranda Rojas</h5>
+                        <p class="mb-2">Diseño Grafico</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Gina Natali Miranda Anampa</h5>
+                        <p class="mb-2">Diseño Web Diurno</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Engeles Caro de la Cruz</h5>
+                        <p class="mb-2">Taller De Programacion Web</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Elvin Flores Lopez</h5>
+                        <p class="mb-2">Aplicaciones Moviles</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                    <div class="bg-light text-center p-4">
+                        <h5 class="mb-3">Andres Virhuez Damian</h5>
+                        <p class="mb-2">Configuracion de Servidores</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 border-top py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0">Copyright &copy; <a class="text-white" href="#">Manuel Arevalo Caceres</a>. Todos los Derechos Reservados.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0">Diseñado por <a class="text-white" href="https://www.facebook.com/Aylen7v7">Doctora aylen</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <div class="container mt-5"> <div class="row"> <div class="col-md-6 offset-md-3"> <div class="card"> <div class="card-body"> <ul class="chat"> <li class="bot"> <p>Hola! ¿En qué puedo ayudarte?</p> </li> </ul> <div class="user-input"> <input type="text" id="userInput" placeholder="Escribe tu mensaje..."> </div> </div> </div> </div> </div> </div>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        const userInput = document.getElementById('userInput');
+        const chat = document.querySelector('.chat');
+    
+        userInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                let userMsg = this.value.trim();
+                if (userMsg.length) {
+                    this.value = '';
+                    appendMessage('user', userMsg);
+                    botResponse(userMsg);
+                }
+            }
+        });
+    
+        function appendMessage(type, msg) {
+            let li = document.createElement('li');
+            li.classList.add(type);
+            li.innerHTML = `<p>${msg}</p>`;
+            chat.appendChild(li);
+            chat.scrollTop = chat.scrollHeight;
+        }
+    
+        function botResponse(msg) {
+            let response = 'Disculpa, no entiendo tu pregunta. ¿Podrías reformularla?';
+            switch (msg.toLowerCase()) {
+                case 'hola':
+                    response = 'Hola! ¿En qué puedo ayudarte?';
+                    break;
+                    case 'informacion':
+                    response = 'Hola para mayor informacion comunicate a nuestro wtsp  994 224 977';
+                    break;
+                    case 'horarios de atencion':
+                    response = 'diurno 8:00 am  a 1:00 pm y por las tardes de 2:00 pm a 10:00 pm';
+                    break;
+                case '¿que hora es?':
+                    let today = new Date();
+                    let time = today.getHours() + ":" + today.getMinutes();
+                    response = `Son las ${time}.`;
+                    break;
+                default:
+                    break;
+            }
+            setTimeout(function() {
+                appendMessage('bot', response);
+            }, 1000);
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var prevScrollpos = window.pageYOffset;
+            var navbar = document.querySelector('.navbar');
+    
+            window.onscroll = function () {
+                var currentScrollPos = window.pageYOffset;
+    
+                // Muestra la barra de navegación cuando el usuario se desplaza hacia arriba
+                if (prevScrollpos > currentScrollPos || currentScrollPos === 0) {
+                    navbar.classList.remove('bg-light');
+                    navbar.classList.add('bg-transparent');
+                } else {
+                    // Oculta la barra de navegación cuando el usuario se desplaza hacia abajo
+                    navbar.classList.add('bg-light');
+                    navbar.classList.remove('bg-transparent');
+                }
+    
+                prevScrollpos = currentScrollPos;
+            };
+        });
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
